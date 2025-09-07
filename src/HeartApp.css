@@ -1,0 +1,31 @@
+.heart-root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><path d='M300 550 Q100 400 100 250 Q100 100 300 200 Q500 100 500 250 Q500 400 300 550 Z' fill='black'/></svg>");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><path d='M300 550 Q100 400 100 250 Q100 100 300 200 Q500 100 500 250 Q500 400 300 550 Z' fill='black'/></svg>");
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  position: relative;
+  -webkit-app-region: drag;
+}
+
+.heart-content {
+  width: 400px;
+  height: 400px;
+  background: pink;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 10px rgba(255,0,100,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #c00;
+}
